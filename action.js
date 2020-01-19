@@ -15,4 +15,7 @@
 ]);
 
 // 메뉴 상위로 이동
-const menu = document.querySelectorAll('.thebook-section--center')[3].cloneNode();
+const menu = document.querySelectorAll('.thebook-section--center')[3];
+// menu.style.margin="0px";
+// munu.querySelector('.mdl-layout-spacer').style.flexGrow = "0";
+document.getElementById("thebook-main").insertAdjacentElement('afterbegin', menu);
