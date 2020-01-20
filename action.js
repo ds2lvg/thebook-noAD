@@ -8,11 +8,12 @@
   });
 })([
   document.querySelector(".google-auto-placed"),
+  document.querySelector(".mdl-layout__header"),
+  document.querySelector(".mdl-mega-footer"),
   document.querySelectorAll(".thebook-section--center")[0],
-  document.querySelectorAll(".mdl-layout__header-row")[1],
+  // document.querySelectorAll(".mdl-layout__header-row")[1],
   document.querySelectorAll(".mdl-grid")[2],
   document.querySelectorAll(".mdl-grid")[5],
-  document.querySelector(".google-auto-placed"),
   document.querySelectorAll(".thebook-vsp"),
   document.querySelectorAll('ins'),
 ]);
