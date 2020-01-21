@@ -7,6 +7,7 @@
     }
   });
 })([
+  document.querySelector("#page_banner"),
   document.querySelector(".google-auto-placed"),
   document.querySelector(".mdl-layout__header"),
   document.querySelector(".mdl-mega-footer"),
