@@ -11,6 +11,7 @@
   document.querySelector(".google-auto-placed"),
   document.querySelector(".mdl-layout__header"),
   document.querySelector(".mdl-mega-footer"),
+  document.querySelector(".mdl-button--primary.mdl-button--primary"),
   document.querySelectorAll(".thebook-section--center")[0],
   // document.querySelectorAll(".mdl-layout__header-row")[1],
   document.querySelectorAll(".mdl-grid")[2],
